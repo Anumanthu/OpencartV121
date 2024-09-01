@@ -6,9 +6,9 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
-import testBase.BaseClass;
+import testBase.BaseTest;
 
-public class TC002_LoginTest extends BaseClass{
+public class TC002_LoginTest extends BaseTest {
 
 	@Test(groups={"Sanity","Master"})
 	public void verify_login()

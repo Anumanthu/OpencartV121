@@ -17,7 +17,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
@@ -29,7 +28,7 @@ import org.apache.logging.log4j.LogManager;  //Log4j
 import org.apache.logging.log4j.Logger;  //Log4j
 
 
-public class BaseClass {
+public class BaseTest {
 
 public static WebDriver driver;
 public Logger logger;  //Log4j

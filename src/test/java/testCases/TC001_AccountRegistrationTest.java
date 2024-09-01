@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 import pageObjects.AccountRegistrationPage;
 import pageObjects.HomePage;
-import testBase.BaseClass;
+import testBase.BaseTest;
 
-public class TC001_AccountRegistrationTest extends BaseClass {
+public class TC001_AccountRegistrationTest extends BaseTest {
 	
 	@Test(groups={"Regression","Master"})
 	public void verify_account_registration()

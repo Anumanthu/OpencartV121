@@ -4,7 +4,6 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 //import java.net.URL;
-import java.net.URL;
 
 //Extent report 5.x...//version
 
@@ -12,9 +11,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.commons.mail.DefaultAuthenticator;
-import org.apache.commons.mail.ImageHtmlEmail;
-import org.apache.commons.mail.resolver.DataSourceUrlResolver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -25,7 +21,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import testBase.BaseClass;
+import testBase.BaseTest;
 
 public class ExtentReportManager implements ITestListener {
     public ExtentSparkReporter sparkReporter;
@@ -85,7 +81,7 @@ public class ExtentReportManager implements ITestListener {
         test.log(Status.INFO, result.getThrowable().getMessage());
 
         try {
-            String imgPath = new BaseClass().captureScreen(result.getName());
+            String imgPath = new BaseTest().captureScreen(result.getName());
             test.addScreenCaptureFromPath(imgPath);
 
         } catch (IOException e1) {

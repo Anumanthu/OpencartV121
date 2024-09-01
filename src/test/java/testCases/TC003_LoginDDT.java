@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
-import testBase.BaseClass;
+import testBase.BaseTest;
 import utilities.DataProviders;
 
 
@@ -18,7 +18,7 @@ Data is invalid - login success - test fail  - logout
 */
 
 
-public class TC003_LoginDDT extends BaseClass {
+public class TC003_LoginDDT extends BaseTest {
 
 	@Test(dataProvider="LoginData", dataProviderClass=DataProviders.class,groups="Datadriven")// getting data provider from different class
 	public void verify_loginDDT(String email, String pwd, String exp) throws InterruptedException
