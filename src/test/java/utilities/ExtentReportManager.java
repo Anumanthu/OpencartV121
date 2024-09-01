@@ -113,7 +113,7 @@ public class ExtentReportManager implements ITestListener {
             e.printStackTrace();
         }
 
-        try {
+        /*try {
             URL url = new URL("file:///" + System.getProperty("user.dir") + "\\reports\\" + repName);
 
             // Create the email message
@@ -121,9 +121,9 @@ public class ExtentReportManager implements ITestListener {
             email.setDataSourceResolver(new DataSourceUrlResolver(url));
             email.setHostName("smtp.googlemail.com");
             email.setSmtpPort(465);
-            email.setAuthenticator(new DefaultAuthenticator("pavanoltraining@gmail.com", "password"));
+            email.setAuthenticator(new DefaultAuthenticator("anumanthunitt@gmail.com", "XXXXXXX"));
             email.setSSLOnConnect(true);
-            email.setFrom("pavanoltraining@gmail.com"); //Sender
+            email.setFrom("anumanthunitt@gmail.com"); //Sender
             email.setSubject("Test Results");
             email.setMsg("Please find Attached Report....");
             email.addTo("pavankumar.busyqa@gmail.com"); //Receiver
@@ -131,7 +131,7 @@ public class ExtentReportManager implements ITestListener {
             email.send(); // send the email
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 
