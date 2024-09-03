@@ -87,3 +87,15 @@
 2024-09-01 18:39:44 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
 2024-09-01 18:39:47 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
 2024-09-01 18:39:49 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
+2024-09-01 21:26:23 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\kindinti.anumanthu\OneDrive - BLACKLINE\Desktop\Personal\OpencartV121\master.xml
+
+2024-09-01 21:26:32 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest  ****
+2024-09-01 21:26:32 INFO  TC001_AccountRegistrationTest:21 - Clicked on MyAccount Link.. 
+2024-09-01 21:26:33 INFO  TC001_AccountRegistrationTest:24 - Clicked on Register Link.. 
+2024-09-01 21:26:33 INFO  TC001_AccountRegistrationTest:28 - Providing customer details...
+2024-09-01 21:26:35 INFO  TC001_AccountRegistrationTest:42 - Validating expected message..
+2024-09-01 21:26:35 INFO  TC001_AccountRegistrationTest:47 - Test passed
+2024-09-01 21:26:35 INFO  TC001_AccountRegistrationTest:56 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-01 21:26:39 INFO  TC002_LoginTest:16 - ****** Startign TC_002_LoginTest *****
+2024-09-01 21:26:41 INFO  TC002_LoginTest:41 - ****** Finished TC_002_LoginTest *****
